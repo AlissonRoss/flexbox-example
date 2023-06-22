@@ -7,7 +7,7 @@
     height: 100vh;
 }
 
-.red, .blue, .yellow{
+.red, .blue, .yellow, .pink, .purple{
     width: 100px;
     height: 100px;
     padding: 40px;
@@ -28,4 +28,14 @@
     background-color: yellow;
     flex-direction: row;
     order:1;
+}
+.pink{
+    background-color: pink;
+    order:4;
+    align-self: flex-start;
+}
+.purple{
+    order:5;
+    background-color: palevioletred;
+    align-self: center;
 }
