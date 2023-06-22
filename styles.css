@@ -1,7 +1,10 @@
 .container{
     display: flex;
+    border: 1px green solid;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .red, .blue, .yellow{
@@ -13,12 +16,16 @@
 .red{
     background-color: red;
     flex-direction: row;
+    order: 2;
 }
 .blue{
     background-color: blue;
     flex-direction: row;
+    align-self: flex-end;
+    order:3;
 }
 .yellow{
     background-color: yellow;
     flex-direction: row;
+    order:1;
 }
